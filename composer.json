@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Imskyyc\\RbxcloudPhp\\": "src/RbxApi.php"
+            "Imskyyc\\RbxcloudPhp": "src/RbxApi.php"
         }
     },
     "authors": [
@@ -13,8 +13,5 @@
             "name": "imskyyc",
             "email": "sky@imskyyc.com"
         }
-    ],
-    "require": {
-        "laravel/framework": "^9.19"
-    }
+    ]
 }
