@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Imskyyc\\RbxcloudPhp\\": "src/"
+            "Imskyyc\\RbxcloudPhp\\": "src/RbxApi.php"
         }
     },
     "authors": [
