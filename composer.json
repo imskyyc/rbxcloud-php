@@ -14,14 +14,7 @@
             "email": "sky@imskyyc.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "RbxcloudPhp\\RbxApiServiceProvider"
-            ]
-        }
-    },
-    "require-dev": {
+    "require": {
         "laravel/framework": "^9.19"
     }
 }
