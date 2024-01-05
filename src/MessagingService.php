@@ -3,7 +3,7 @@
 namespace Imskyyc\RbxcloudPhp;
 
 class MessagingService {
-    public function publishMessage(String $universeId, String $topic, String $token, String $message) 
+    public static function publishMessage(String $universeId, String $topic, String $token, String $message) 
     {
         $curlHandle = curl_init();
 
