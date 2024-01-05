@@ -1,0 +1,27 @@
+{
+    "name": "imskyyc/rbxcloud-php",
+    "description": "PHP implementation of RBXCloud",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imskyyc\\RbxcloudPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imskyyc",
+            "email": "sky@imskyyc.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RbxcloudPhp\\RbxApiServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "^9.19"
+    }
+}
