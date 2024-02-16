@@ -2,6 +2,6 @@
 
 namespace Imskyyc\RbxcloudPhp;
 
-class RbxApi {
+class DataStoreService {
     
 }
