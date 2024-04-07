@@ -15,6 +15,6 @@ class GameService {
 
         curl_close($curlHandle);
 
-        return $response;
+        return json_decode($response);
     }
 }
